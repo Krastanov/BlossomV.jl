@@ -69,5 +69,6 @@ provides(BuildProcess,
         end
     end), blossom5float64)
 
+
 @BinDeps.install Dict([(:blossom5int32, :_jl_blossom5int32),
                        (:blossom5float64, :_jl_blossom5float64)])
